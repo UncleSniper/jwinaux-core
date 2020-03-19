@@ -4,6 +4,8 @@ import org.unclesniper.winaux.AuxEngine;
 
 public interface SwingWindowBlueprint {
 
-	AbstractSwingWindow getSwingWindow(AuxEngine engine);
+	SwingWindow getSwingWindow(AuxEngine engine);
+
+	void destroySwingWindow(AuxEngine engine);
 
 }
